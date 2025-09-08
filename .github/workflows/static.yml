@@ -38,7 +38,7 @@ jobs:
     - run: tar -xf artifact.tar -C ./artifact
     # ...and deploy it to S3.
     - name: Configure AWS Credentials
-      uses: aws-actions/configure-aws-credentials@v4
+      uses: aws-actions/configure-aws-credentials@v5
       with:
         role-to-assume: arn:aws:iam::431478890660:role/globus_example-data-portal-alternative-hosting-action
         aws-region: us-east-1
