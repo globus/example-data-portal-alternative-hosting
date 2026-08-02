@@ -8,7 +8,7 @@
     "version": "1.0.0",
     "attributes": {
       "content": {
-        "title": "Example: Alternative Hosting"
+        "title": "Example: Alternative Hosting (AWS S3)"
       },
       "globus": {
         "application": {
